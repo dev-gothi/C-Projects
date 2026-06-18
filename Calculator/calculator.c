@@ -53,10 +53,11 @@ if(n>=1 && n<=8){
                      break;
           case 6 : if(b!=0){
                     printf("Modulo of first number with respect to second number is %d\n",a%b); 
-          }       
-          else{
-            printf("Error as value of b is zero\n");
-          }    
+                          }       
+                  else{
+                    printf("Error as value of b is zero\n");
+                      }  
+                    break;
        
         case 7 : printf("The Answer of a raised to b is %d\n",calpower(a,b));
                 break;
